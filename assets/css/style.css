@@ -1,0 +1,12 @@
+:root {
+    --xlight: #36EEE0;
+    --light: #4C5270;
+    --dark: #BCECE0;
+    --xdark: #FAE8E0;
+}
+
+
+   
+body {
+    background-color: var(--dark);
+}
