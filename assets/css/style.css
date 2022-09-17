@@ -1,12 +1,47 @@
 :root {
-    --xlight: #36EEE0;
-    --light: #4C5270;
-    --dark: #BCECE0;
-    --xdark: #FAE8E0;
+    --dark: #36EEE0;
+    --xdark: #4C5270;
+    --light: #BCECE0;
+    --xlight: #FAE8E0;
 }
 
 
    
 body {
-    background-color: var(--dark);
+    display: grid;
+    background-color: var(--xdark);
 }
+
+header {
+    display: grid;
+    text-align: center;
+    color: var(--xlight);
+
+}
+
+#game-play {
+    display: grid;
+    justify-items: center;
+}
+
+.question-container {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* grid-template-columns: auto auto auto auto; */
+    grid-gap: 10px;
+    border-radius: 20px;
+    margin: 40px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: var(--light);
+    color: var(--xdark);
+}
+
+/* .choices {
+    display: flex;
+    align-items: center;
+    
+} */

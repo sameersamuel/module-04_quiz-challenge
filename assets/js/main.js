@@ -2,6 +2,11 @@ var buttonEl = document.querySelector('#start-button');
 var timerEl = document.getElementById('timer');
 
 
+function submitBtn {
+//when submit button is clicked "question-1" container display should change from block to hide, and "question-2" container should go from hide to block.
+
+};
+
 
 
 
