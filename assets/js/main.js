@@ -2,7 +2,7 @@ var buttonEl = document.querySelector('#start-button');
 var timerEl = document.getElementById('timer');
 
 
-function submitBtn {
+function submitBtn() {
 //when submit button is clicked "question-1" container display should change from block to hide, and "question-2" container should go from hide to block.
 
 };
@@ -13,7 +13,7 @@ function submitBtn {
 buttonEl.addEventListener("click", startQuiz);
 
 function startQuiz () {
-    prompt("button works!");
+    alert("button works!");
     console.log("button to console")
 };
 
